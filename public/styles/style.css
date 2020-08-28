@@ -1,0 +1,312 @@
+.imagem_fundo {
+	display: block; 
+	align-items: left; 
+	padding-bottom: 2rem; 
+	background-repeat: no-repeat; 
+	width: 100%;
+	
+}
+
+.menu_glossario{
+	display: flex; 
+	justify-content: center; 
+	padding-top: 7rem; 
+	padding-bottom: 4rem;
+}
+
+.menu_glossario_design{
+	background-color: white; 
+	opacity: 0.9; 
+	width: 58%;  
+	height: 100%; 
+	border:solid 0px; 
+	border-radius:12px;
+	font-family: 'Segoe-ui', 'Segoe-ui-ie', serif;
+}
+
+/*glossario*/
+.menu_glossario_letra_borda {
+	border:solid 1px; 
+	border-radius:1px; 
+	border-width: 3px; 
+	width: 40px; 
+	height: 40px; 
+	margin: 1rem; 
+	margin-right: 0rem; 
+	border-color: #d3d3d3; 
+}
+
+.menu_glossario_letra_borda:hover{
+	border:solid 1px; 
+	border-radius:1px; 
+	border-width: 3px; 
+	width: 40px; 
+	height: 40px; 
+	margin: 1rem; 
+	margin-right: 0rem; 
+	border-color: red; 
+}
+/* x glossario x */
+
+.menu_glossario_letra{
+	text-align: center; 
+	font-size: 19px; 
+	margin-top: 3px; 
+	font-family: 'Segoe-ui', 'Segoe-ui-ie', serif;
+	font-weight: bolder;
+}
+
+#menu_glossario_botao{
+	background-color: white;
+	opacity: 1; 
+	margin: 5px; border-color:#d5d5d5; border-width:2px; height: 40px;
+}
+
+.link-menu-glossario a {
+	color:  #B1B1B1;
+}
+
+.link-menu-glossario a:hover {
+	color: #1492E6;
+}
+
+#erro_alert {
+	background-color: white;
+	opacity: 1; 
+	margin: 5px; border-width:2px; height: 40px;
+	border-left-color: rgb(145, 8, 8);
+}
+
+#todas_botao{
+	background-color: white;
+	opacity: 1; 
+	margin: 5px; border-color:#d5d5d5; border-width:2px; height: 40px;
+}
+
+#audio_botao{
+	background-color: white;
+	opacity: 1; 
+	margin: 5px; border-color:#d5d5d5; border-width:2px; height: 40px;
+}
+
+#video_botao{
+	background-color: white;
+	opacity: 1; 
+	margin: 5px; border-color:#d5d5d5; border-width:2px; height: 40px;
+}
+
+
+
+/*lista de palavras*/
+.lista_item{
+	margin-bottom: 1rem; border-radius: 5px; width: 100%; box-shadow: inset 0 0 0em white, 0 0 0.3em grey; font-weight: bolder;
+}
+.lista_item:hover{
+	 border-radius: 5px; width: 100%; border-color: red; box-shadow: inset 0 0 1em white, 0 0 1em grey;
+}
+li.selected{
+	margin-bottom: 1rem; border-radius: 5px; width: 100%; border-color: red; box-shadow: inset 0 0 1em white, 0 0 1em grey;
+}
+/* x lista de palavras x */
+
+.div_resultado{
+	margin-left: 0.1rem; margin-right: 0.1rem; margin-bottom: 0.1rem;
+}
+
+#titulo_lista{
+	font-size: 30px; font-family:'Segoe-ui', 'Segoe-ui-ie', serif; font-weight: bolder;
+}
+
+#subtitulo_lista{
+	font-family:'Segoe-ui', 'Segoe-ui-ie', serif; color: #313131; font-weight: bolder;
+}
+
+#titulo_busca{
+	font-size: 25px; font-family:'Segoe-ui', 'Segoe-ui-ie', serif;
+}
+
+#subtitulo_busca{
+	font-family:'Segoe-ui', 'Segoe-ui-ie', serif; color: #aaaaaa;
+}
+
+.div_container{
+	margin-bottom: 2rem; 
+	border-radius: 10px; 
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.26);
+	box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.26);
+}
+
+.subtitulo_container{
+	color:#aaaaaa; font-size: 14px;
+}
+
+.div_mais_resultados{
+	display: flex; 
+	justify-content: center; 
+	margin-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.campo_contador{
+	text-align: center;  border: 2px solid #d5d5d5; width: 150px; height: 39px; border-radius: 5px; padding-top: 5px; margin-bottom: 1rem;
+}
+
+.campo_contado_valor{
+	margin-left: 5px; color: #acabab;
+}
+
+.campo_compartilhar_texto{
+	margin-left: 5px; color: #acabab;
+}
+
+
+/*########################### lista_de_palavras ###########################*/
+
+.letra{
+	font-size: 100px; font-family: 'Segoe-ui', 'Segoe-ui-ie', serif;
+}
+
+.nav_text_size {
+	font-size: 100px;
+}
+
+
+
+/*########################### rodape ###########################*/
+
+.rodape{
+	background-color: black; width: 100%; height: 100%;
+}
+
+.alinhamento_container{
+	text-align: center; 
+	margin-top: 1rem;
+	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+	flex-direction: column;
+  	-webkit-box-align: center;
+    -ms-flex-align: center;
+	align-items: center;
+  	-webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+	text-align: center;
+	margin: 0 10px;
+	max-width: 300px;
+}
+
+.alinhamento_container_texto{
+	text-align: left; color: white; margin-top: 1rem;
+}
+
+.rodape_texto{
+	margin-bottom: 1rem;
+
+}
+
+/*######################## Linha do Tempo #####################*/
+
+
+.paragrafo {
+    font-size: 19px;
+}
+
+.box {
+    height: 100px;
+}
+
+.box_ano {
+    height: 120px;
+}
+
+.coluna_vermelha {
+    background-color: red;
+}
+
+.titulo_vermelho_negrito {
+    color: red;
+    font-weight: 1000;
+    font-size: 38px;
+}
+
+.titulo_preto_negrito {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.direito {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.ano_acizentado_negrito {
+    color: rgba(255, 255, 255, 0.493);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.ano_destacado_negrito {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.texto_italico_central {
+    text-align: center;
+    font-style: italic;
+}
+
+.titulos {
+    position: relative;
+    left: 20%;
+}
+
+.fundo_preto {
+    background-color: black;
+}
+
+.imagem_direita {
+    position: relative;
+    left: 20px;
+    top: 120px;
+}
+
+.imagem_esquerda {
+    position: relative;
+    right: 20px;
+    top: 120px;
+}
+
+/* Editar trecho */
+
+.custom-file-input:lang(pt-br) ~ .custom-file-label::after {
+	content: "Procurar";
+}
+
+.custom-file-input:lang(fr) ~ .custom-file-label::after {
+	content: "Rechercher";
+}
+
+.custom-file-input:lang(es) ~ .custom-file-label::after {
+	content: "Buscar";
+}
+
+.custom-file-input ~ .custom-file-label[data-browse]::after {
+	content: attr(data-browse);
+}
+
+.custom-select:focus {
+	border-color: #464646;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(97, 97, 97, 0.25);
+}

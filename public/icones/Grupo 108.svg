@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.199" height="27.5" viewBox="0 0 22.199 27.5">
+  <g id="Grupo_108" data-name="Grupo 108" transform="translate(-398.828 -341)">
+    <rect id="Retângulo_46" data-name="Retângulo 46" width="12" height="13" transform="matrix(0.985, 0.174, -0.174, 0.985, 405.221, 345.057)" fill="#05f"/>
+    <path id="Icon_awesome-book-medical" data-name="Icon awesome-book-medical" d="M22.2,18.116V1.294A1.179,1.179,0,0,0,20.931,0H4.757A4.72,4.72,0,0,0,0,4.853V21.028A4.72,4.72,0,0,0,4.757,25.88H20.931A1.263,1.263,0,0,0,22.2,24.586v-.809a1.409,1.409,0,0,0-.476-.971,14.592,14.592,0,0,1,0-3.72A.983.983,0,0,0,22.2,18.116ZM7.135,8.492a.4.4,0,0,1,.4-.4h2.775V5.257a.4.4,0,0,1,.4-.4h2.378a.4.4,0,0,1,.4.4V8.088h2.775a.4.4,0,0,1,.4.4v2.426a.4.4,0,0,1-.4.4H13.478v2.831a.4.4,0,0,1-.4.4H10.7a.4.4,0,0,1-.4-.4V11.323H7.532a.4.4,0,0,1-.4-.4ZM18.869,22.645H4.757a1.513,1.513,0,0,1-1.586-1.618A1.6,1.6,0,0,1,4.757,19.41H18.869Z" transform="translate(398.828 342.62)" fill="#05f"/>
+    <text id="A" transform="translate(402 355)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+    <text id="Z" transform="translate(410 359)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+  </g>
+</svg>
