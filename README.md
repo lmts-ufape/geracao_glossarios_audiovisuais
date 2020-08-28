@@ -13,6 +13,20 @@ Texto de apresentação
 
 - [Exemplo do glossário paulo freire](http://glossario.paulofreire.org/)
 
+## Requisitos
+
+- O banco de dados utiliza a extensão unaccent do postgresql, para instalar selecione o banco de dados que a aplicação utiliza e use
+
+```sql
+    CREATE EXTENSION unaccent;
+```
+
+caso de erro, instale o pacote
+
+```
+    sudo apt-get install postgresql-contrib-9.1   
+```
+
 Faça download e adapte ao seu glossário!
 
 ## About Laravel
